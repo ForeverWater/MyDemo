@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45CBE1C2740F7C6BF37F967F /* Pods_WYGDemoTotal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1E6782373F712662C70156 /* Pods_WYGDemoTotal.framework */; };
 		4B36D3081FAB672A009370CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36D3071FAB672A009370CE /* AppDelegate.m */; };
 		4B36D30B1FAB672A009370CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36D30A1FAB672A009370CE /* ViewController.m */; };
 		4B36D30E1FAB672A009370CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B36D30C1FAB672A009370CE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		4B36D3161FAB672A009370CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36D3151FAB672A009370CE /* main.m */; };
 		4B36D3201FAB672A009370CE /* WYGDemoTotalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36D31F1FAB672A009370CE /* WYGDemoTotalTests.m */; };
 		4B36D32B1FAB672A009370CE /* WYGDemoTotalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36D32A1FAB672A009370CE /* WYGDemoTotalUITests.m */; };
+		4B36D33D1FAB6D26009370CE /* NetWorkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36D33C1FAB6D26009370CE /* NetWorkEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240C3ABD2191897D0F484C7B /* Pods-WYGDemoTotal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYGDemoTotal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYGDemoTotal/Pods-WYGDemoTotal.debug.xcconfig"; sourceTree = "<group>"; };
+		3E48284E75A48037C6BB21D1 /* Pods-WYGDemoTotal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYGDemoTotal.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYGDemoTotal/Pods-WYGDemoTotal.release.xcconfig"; sourceTree = "<group>"; };
 		4B36D3031FAB672A009370CE /* WYGDemoTotal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYGDemoTotal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B36D3061FAB672A009370CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B36D3071FAB672A009370CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		4B36D3261FAB672A009370CE /* WYGDemoTotalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYGDemoTotalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B36D32A1FAB672A009370CE /* WYGDemoTotalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYGDemoTotalUITests.m; sourceTree = "<group>"; };
 		4B36D32C1FAB672A009370CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B36D33B1FAB6D26009370CE /* NetWorkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkEngine.h; sourceTree = "<group>"; };
+		4B36D33C1FAB6D26009370CE /* NetWorkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkEngine.m; sourceTree = "<group>"; };
+		CC1E6782373F712662C70156 /* Pods_WYGDemoTotal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYGDemoTotal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45CBE1C2740F7C6BF37F967F /* Pods_WYGDemoTotal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0682B1EB48CC7A776E7A542C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				240C3ABD2191897D0F484C7B /* Pods-WYGDemoTotal.debug.xcconfig */,
+				3E48284E75A48037C6BB21D1 /* Pods-WYGDemoTotal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4B36D2FA1FAB672A009370CE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				4B36D31E1FAB672A009370CE /* WYGDemoTotalTests */,
 				4B36D3291FAB672A009370CE /* WYGDemoTotalUITests */,
 				4B36D3041FAB672A009370CE /* Products */,
+				0682B1EB48CC7A776E7A542C /* Pods */,
+				82CD7961474D08C5FAB86904 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 			children = (
 				4B36D3061FAB672A009370CE /* AppDelegate.h */,
 				4B36D3071FAB672A009370CE /* AppDelegate.m */,
+				4B36D3381FAB6900009370CE /* Classes */,
 				4B36D3091FAB672A009370CE /* ViewController.h */,
 				4B36D30A1FAB672A009370CE /* ViewController.m */,
 				4B36D30C1FAB672A009370CE /* Main.storyboard */,
@@ -132,6 +152,23 @@
 			path = WYGDemoTotalUITests;
 			sourceTree = "<group>";
 		};
+		4B36D3381FAB6900009370CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B36D33B1FAB6D26009370CE /* NetWorkEngine.h */,
+				4B36D33C1FAB6D26009370CE /* NetWorkEngine.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		82CD7961474D08C5FAB86904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E6782373F712662C70156 /* Pods_WYGDemoTotal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B36D32F1FAB672A009370CE /* Build configuration list for PBXNativeTarget "WYGDemoTotal" */;
 			buildPhases = (
+				6EE6A8CAC5624CECDE6ED355 /* [CP] Check Pods Manifest.lock */,
 				4B36D2FF1FAB672A009370CE /* Sources */,
 				4B36D3001FAB672A009370CE /* Frameworks */,
 				4B36D3011FAB672A009370CE /* Resources */,
+				C9FB87621DBF06A4C9FCC673 /* [CP] Embed Pods Frameworks */,
+				0E9FF3D7699EC22D04A726BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +300,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E9FF3D7699EC22D04A726BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYGDemoTotal/Pods-WYGDemoTotal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE6A8CAC5624CECDE6ED355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYGDemoTotal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FB87621DBF06A4C9FCC673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WYGDemoTotal/Pods-WYGDemoTotal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYGDemoTotal/Pods-WYGDemoTotal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B36D2FF1FAB672A009370CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +361,7 @@
 			files = (
 				4B36D30B1FAB672A009370CE /* ViewController.m in Sources */,
 				4B36D3161FAB672A009370CE /* main.m in Sources */,
+				4B36D33D1FAB6D26009370CE /* NetWorkEngine.m in Sources */,
 				4B36D3081FAB672A009370CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +523,7 @@
 		};
 		4B36D3301FAB672A009370CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240C3ABD2191897D0F484C7B /* Pods-WYGDemoTotal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +538,7 @@
 		};
 		4B36D3311FAB672A009370CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E48284E75A48037C6BB21D1 /* Pods-WYGDemoTotal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

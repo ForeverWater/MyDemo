@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NetWorkEngine.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    for (int i =0 ;i<100;i++){
+    [[NetWorkEngine getInstance] asyRequestByGet:@"/article/today?dev=1" params:nil callback:^(id responseObject, NSError *error) {
+          NSLog(@"%@",responseObject);
+    }];
+}
 }
 
 
